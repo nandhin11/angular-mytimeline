@@ -1,0 +1,43 @@
+.timeline {
+  display: flex;
+  align-items: center;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle.completed {
+  background-color: blue;
+}
+
+.circle.completed span {
+  color: white;
+}
+
+.line {
+  flex: 1;
+  height: 2px;
+  background-color: gray;
+}
+
+.line-horizontal {
+  min-width: 1.5rem;
+  height: 2px;
+  background-color: gray;
+}
+
+.line-horizontal.completed {
+  background-color: blue;
+}
